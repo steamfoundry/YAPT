@@ -3,12 +3,8 @@ import board
 import neopixel
 
 
-# On CircuitPlayground Express, and boards with built in status NeoPixel -> board.NEOPIXEL
-# Otherwise choose an open pin connected to the Data In of the NeoPixel strip, i.e. board.D1
-# pixel_pin = board.NEOPIXEL
 
-# On a Raspberry pi, use this instead, not all pins are supported
-pixel_pin = board.D3
+pixel_pin = board.D0
 
 # The number of NeoPixels
 num_pixels = 24
